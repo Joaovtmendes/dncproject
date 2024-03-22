@@ -1,12 +1,12 @@
-# dncproject
-#O dataset de varejo que temos em mãos é composto por informações de vendas de uma loja virtual que atua em todo o território nacional, vendendo produtos de diferentes departamentos. Além disso, a loja atua em diferentes canais de venda, como marketplace, loja própria, entre outros.
+# DNC_project
+#The retail dataset we have on hand is composed of sales information from an online store that operates throughout the national territory, selling products from different departments. Additionally, the store operates through different sales channels, such as marketplace, own store, among others.
 
-Premissas de negócio: Ao analisar os dados, é importante ter em mente que existem algumas premissas de negócio que devem ser consideradas. A primeira delas é que, devido a um erro no sistema, algumas compras não possuem informações de UF (Unidade Federativa). Para solucionar esse problema, foi decidido que essas compras serão consideradas como pertencentes ao estado de Mato Grosso do Sul (MS). A segunda premissa é que o preço final de um produto não pode ser maior do que o preço com frete.
+Business assumptions: When analyzing the data, it is important to keep in mind that there are some business assumptions that must be considered. The first one is that, due to an error in the system, some purchases do not have UF (Federative Unit) information. To solve this problem, it was decided that these purchases will be considered as belonging to the state of Mato Grosso do Sul (MS). The second assumption is that the final price of a product cannot be higher than the price with shipping.
 
-Métricas: Com base nesse contexto e nas premissas de negócio estabelecidas, podemos avaliar as seguintes métricas:
+Metrics: Based on this context and the established business assumptions, we can evaluate the following metrics:
 
-Departamentos mais vendidos: Analisando os dados de vendas, podemos identificar quais são os departamentos mais populares entre os clientes. Essa informação pode ser útil para entender quais são os produtos mais procurados pelos clientes e ajustar a estratégia de venda da loja em conformidade.
-Média de preço com frete por Nome de Departamento: Para entender o comportamento de preço por departamento, podemos calcular a média de preço com frete por nome de departamento. Essa métrica pode ajudar a identificar quais são os departamentos mais rentáveis e ajustar a precificação de produtos de acordo com a margem de lucro desejada.
-Quantidade de vendas por Mês: Analisando a quantidade de vendas realizadas em cada mês, podemos identificar sazonalidades no comportamento de compra dos clientes e planejar campanhas de marketing específicas para cada período.
-Média de renda para cada tipo de canal de venda: Identificar a média de renda dos clientes em diferentes canais de venda pode ajudar a loja a adaptar a estratégia de marketing e vendas para cada público-alvo.
-Média de idade de clientes por bandeira: Saber a faixa etária dos clientes por bandeira pode ajudar a identificar perfis de consumidores e ajustar a estratégia de venda para atender melhor cada público.
+Best-selling departments: By analyzing sales data, we can identify which departments are most popular among customers. This information can be useful to understand which products are most sought after by customers and adjust the store's sales strategy accordingly.
+Average price with shipping by Department Name: To understand price behavior by department, we can calculate the average price with shipping by department name. This metric can help identify which departments are most profitable and adjust product pricing according to the desired profit margin.
+Quantity of sales per Month: By analyzing the quantity of sales made in each month, we can identify seasonalities in customer buying behavior and plan specific marketing campaigns for each period.
+Average income for each type of sales channel: Identifying the average income of customers in different sales channels can help the store adapt its marketing and sales strategy for each target audience.
+Average age of customers by brand: Knowing the age range of customers by brand can help identify cons
